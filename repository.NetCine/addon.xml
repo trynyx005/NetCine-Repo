@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.NetCine" name="NetCine REPO" version="1.1" provider-name="Trynyx005">
+    <extension point="xbmc.addon.repository" name="Nome Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/trynyx005/Net-Repo/inicio/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/trynyx005/Net-Repo/inicio/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/trynyx005/Net-Repo/inicio/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Net_Repo</summary>
+        <description>O Melhor do Entretenimento você encontra aqui</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
